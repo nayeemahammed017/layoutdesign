@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* header start*/
+.navber{
+    background:#212529;
+    
+    
+}
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+.navber ul{
+    list-style-type: none;
+    display: flex;
+    
+
+}
+.navber ul li{
+    
+    
+}
+.navber ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 26px;
+    padding: 14px 20px;
+    display: inline-block;
+    color: aliceblue;
+    transition: .5s;
+}
+.navber ul li a:hover{
+    background: #6C757D;
+
+}
+/* header end*/
+
+/*img start*/
+
+.row{
+    display: flex;
+    padding-top: 50px;
+    margin-top: 10px;
+    text-align: center;
+}
+.img{
+    width: 800px;
+    height: 350px;
+}
+.business{
+    font-size: 42px;
+    margin-top: 50px;
+}
+.this-is{
+    text-align: center;
+    margin-top: 20px;
+}
+.btn{
+    padding: 5px 10px;
+    font-size: 24px;
+    margin-top: 36px ;
+    background: #0D6EFD;
+    transition: .5s;
+    border-radius: 10px;
+    font-style: italic;
+    font-weight: 600;
+
+}
+.btn:hover{
+    background-color:#6C757D;
+}
+/*img end*/
+.this-call{
+    background-color: #6C757D;
+    padding: 36px 0px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    margin: 30px auto;
+}
+
+.product-details{
+    display: flex;
+    gap: 20px;
+    padding-top: 0px;
+    text-align: center;
+    
+}
+.card{
+    text-align: center;
+    font-size: 36px;
+}
+.subtitle{
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.copyright{
+    background:#212529;
+    padding: 50px ;
+    margin-top: 30px;
+}
+.copy{
+    text-align: center;
+    color: azure;
+}
+
+
+
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+   width:  83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
+
+
